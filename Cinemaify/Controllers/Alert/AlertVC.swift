@@ -66,7 +66,12 @@ final class AlertVC: UIViewController {
     
     private func configureActionButton() {
         actionButton.setTitle(buttonTitle ?? "Ok", for: .normal)
-        actionButton.addTarget(self, action: #selector(dismissVC), for: .touchUpInside)
+        
+        let action = UIAction { [weak self] _ in
+            guard let self else { return }
+            self.actionButtonTapped()
+        }
+        actionButton.addAction(action, for: .touchUpInside)
         
         actionButton.snp.makeConstraints { make in
             make.bottom.equalTo(containerView.snp.bottom).offset(-padding)
@@ -88,7 +93,7 @@ final class AlertVC: UIViewController {
         }
     }
     
-    @objc private func dismissVC() {
+    private func actionButtonTapped() {
         dismiss(animated: true)
     }
 }

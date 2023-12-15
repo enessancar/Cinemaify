@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-final class DataLoadingVC: UIViewController {
+final class MovieDataLoadingVC: UIViewController {
     
     private var containerView: UIView!
     
