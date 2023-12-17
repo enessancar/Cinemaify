@@ -53,6 +53,8 @@
 		EC6E5FBB2B2E092C0024ABD6 /* ProfileUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E5FBA2B2E092C0024ABD6 /* ProfileUIView.swift */; };
 		EC6E5FBE2B2E428C0024ABD6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E5FBD2B2E428C0024ABD6 /* LoginView.swift */; };
 		EC6E5FC02B2E42910024ABD6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E5FBF2B2E42910024ABD6 /* LoginVC.swift */; };
+		EC6E5FC32B2EEB4A0024ABD6 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E5FC22B2EEB4A0024ABD6 /* MovieTableViewCell.swift */; };
+		EC6E5FC62B2F58970024ABD6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = EC6E5FC52B2F58970024ABD6 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +103,7 @@
 		EC6E5FBA2B2E092C0024ABD6 /* ProfileUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUIView.swift; sourceTree = "<group>"; };
 		EC6E5FBD2B2E428C0024ABD6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		EC6E5FBF2B2E42910024ABD6 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		EC6E5FC22B2EEB4A0024ABD6 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6E5FC62B2F58970024ABD6 /* Kingfisher in Frameworks */,
 				EC6E5F8A2B2C527E0024ABD6 /* SnapKit in Frameworks */,
 				EC6E5F8C2B2C527E0024ABD6 /* SnapKit-Dynamic in Frameworks */,
 				EC6E5F8F2B2C52E20024ABD6 /* Lottie in Frameworks */,
@@ -195,6 +199,7 @@
 		EC6E5F5D2B2BAA3B0024ABD6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EC6E5FC12B2EEB3D0024ABD6 /* Search */,
 				EC6E5FB72B2DC7DA0024ABD6 /* Profile */,
 				EC6E5FAA2B2CBBD30024ABD6 /* Alert */,
 				EC6E5F9F2B2C83780024ABD6 /* TextField */,
@@ -392,6 +397,14 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		EC6E5FC12B2EEB3D0024ABD6 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				EC6E5FC22B2EEB4A0024ABD6 /* MovieTableViewCell.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -412,6 +425,7 @@
 				EC6E5F892B2C527E0024ABD6 /* SnapKit */,
 				EC6E5F8B2B2C527E0024ABD6 /* SnapKit-Dynamic */,
 				EC6E5F8E2B2C52E20024ABD6 /* Lottie */,
+				EC6E5FC52B2F58970024ABD6 /* Kingfisher */,
 			);
 			productName = Cinemaify;
 			productReference = EC6E5F3B2B2B9D7A0024ABD6 /* Cinemaify.app */;
@@ -444,6 +458,7 @@
 			packageReferences = (
 				EC6E5F882B2C527E0024ABD6 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				EC6E5F8D2B2C52E20024ABD6 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				EC6E5FC42B2F58970024ABD6 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = EC6E5F3C2B2B9D7A0024ABD6 /* Products */;
 			projectDirPath = "";
@@ -512,6 +527,7 @@
 				EC6E5F992B2C81EB0024ABD6 /* TitleLabel.swift in Sources */,
 				EC6E5F842B2C40AD0024ABD6 /* StackView+Ext.swift in Sources */,
 				EC6E5F5A2B2BA0B00024ABD6 /* Constants.swift in Sources */,
+				EC6E5FC32B2EEB4A0024ABD6 /* MovieTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -758,6 +774,14 @@
 				minimumVersion = 4.3.4;
 			};
 		};
+		EC6E5FC42B2F58970024ABD6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -775,6 +799,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EC6E5F8D2B2C52E20024ABD6 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		EC6E5FC52B2F58970024ABD6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC6E5FC42B2F58970024ABD6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
