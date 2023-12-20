@@ -69,7 +69,8 @@ final class CustomTextField: UITextField {
     }
     
     private func toggle() {
-        isSecureTextEntry = !isSecureTextEntry
+        isSecureTextEntry.toggle()
+        
         if isSecureTextEntry {
             rightButton.setImage(UIImage(systemName: "eye.slash.fill") , for: .normal)
         } else {
