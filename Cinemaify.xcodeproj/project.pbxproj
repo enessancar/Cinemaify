@@ -10,7 +10,6 @@
 		EC6E5F3F2B2B9D7A0024ABD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E5F3E2B2B9D7A0024ABD6 /* AppDelegate.swift */; };
 		EC6E5F412B2B9D7A0024ABD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E5F402B2B9D7A0024ABD6 /* SceneDelegate.swift */; };
 		EC6E5F432B2B9D7A0024ABD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E5F422B2B9D7A0024ABD6 /* ViewController.swift */; };
-		EC6E5F462B2B9D7A0024ABD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6E5F442B2B9D7A0024ABD6 /* Main.storyboard */; };
 		EC6E5F482B2B9D7C0024ABD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6E5F472B2B9D7C0024ABD6 /* Assets.xcassets */; };
 		EC6E5F4B2B2B9D7C0024ABD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6E5F492B2B9D7C0024ABD6 /* LaunchScreen.storyboard */; };
 		EC6E5F552B2B9FC80024ABD6 /* a1.json in Resources */ = {isa = PBXBuildFile; fileRef = EC6E5F532B2B9FC80024ABD6 /* a1.json */; };
@@ -91,6 +90,12 @@
 		EC6E60192B30D6E50024ABD6 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E60182B30D6E50024ABD6 /* RegisterVC.swift */; };
 		EC6E601C2B30DF8C0024ABD6 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E601B2B30DF8C0024ABD6 /* ForgotPasswordVC.swift */; };
 		EC6E601E2B30DF960024ABD6 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E601D2B30DF960024ABD6 /* ForgotPasswordView.swift */; };
+		EC6E60212B32D6F50024ABD6 /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E60202B32D6F50024ABD6 /* ChangePasswordView.swift */; };
+		EC6E60232B32D6FF0024ABD6 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E60222B32D6FF0024ABD6 /* ChangePasswordVC.swift */; };
+		EC6E60252B3373CF0024ABD6 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E60242B3373CF0024ABD6 /* SwitchTableViewCell.swift */; };
+		EC6E60282B3380FC0024ABD6 /* MoviePreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E60272B3380FC0024ABD6 /* MoviePreviewVC.swift */; };
+		EC6E602A2B33810A0024ABD6 /* MoviePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E60292B33810A0024ABD6 /* MoviePreviewView.swift */; };
+		EC6E602C2B34D3540024ABD6 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E602B2B34D3540024ABD6 /* MovieCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,7 +103,6 @@
 		EC6E5F3E2B2B9D7A0024ABD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC6E5F402B2B9D7A0024ABD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EC6E5F422B2B9D7A0024ABD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC6E5F452B2B9D7A0024ABD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC6E5F472B2B9D7C0024ABD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC6E5F4A2B2B9D7C0024ABD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC6E5F4C2B2B9D7C0024ABD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -147,6 +151,12 @@
 		EC6E60182B30D6E50024ABD6 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		EC6E601B2B30DF8C0024ABD6 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
 		EC6E601D2B30DF960024ABD6 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		EC6E60202B32D6F50024ABD6 /* ChangePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
+		EC6E60222B32D6FF0024ABD6 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		EC6E60242B3373CF0024ABD6 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		EC6E60272B3380FC0024ABD6 /* MoviePreviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewVC.swift; sourceTree = "<group>"; };
+		EC6E60292B33810A0024ABD6 /* MoviePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewView.swift; sourceTree = "<group>"; };
+		EC6E602B2B34D3540024ABD6 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,7 +231,6 @@
 				EC6E5F3E2B2B9D7A0024ABD6 /* AppDelegate.swift */,
 				EC6E5F402B2B9D7A0024ABD6 /* SceneDelegate.swift */,
 				EC6E5F422B2B9D7A0024ABD6 /* ViewController.swift */,
-				EC6E5F442B2B9D7A0024ABD6 /* Main.storyboard */,
 				EC6E5F472B2B9D7C0024ABD6 /* Assets.xcassets */,
 				EC6E5F492B2B9D7C0024ABD6 /* LaunchScreen.storyboard */,
 				EC6E5F4C2B2B9D7C0024ABD6 /* Info.plist */,
@@ -342,6 +351,7 @@
 		EC6E5F732B2C3B020024ABD6 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				EC6E601F2B32D6DE0024ABD6 /* ChangePassword */,
 				EC6E601A2B30DF7C0024ABD6 /* ForgotPassword */,
 				EC6E60152B30D6D00024ABD6 /* Register */,
 				EC6E5FBC2B2E42810024ABD6 /* Login */,
@@ -368,6 +378,8 @@
 		EC6E5F762B2C3B1A0024ABD6 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				EC6E60272B3380FC0024ABD6 /* MoviePreviewVC.swift */,
+				EC6E60292B33810A0024ABD6 /* MoviePreviewView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -417,6 +429,7 @@
 			isa = PBXGroup;
 			children = (
 				EC6E5F932B2C81610024ABD6 /* HeroHeaderView.swift */,
+				EC6E602B2B34D3540024ABD6 /* MovieCollectionViewCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -461,6 +474,7 @@
 				EC6E5FB82B2DC7F00024ABD6 /* HelpAndSupportView.swift */,
 				EC6E5FBA2B2E092C0024ABD6 /* ProfileUIView.swift */,
 				EC6E600E2B30A1FD0024ABD6 /* SettingTableViewCell.swift */,
+				EC6E60242B3373CF0024ABD6 /* SwitchTableViewCell.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -506,6 +520,15 @@
 				EC6E601D2B30DF960024ABD6 /* ForgotPasswordView.swift */,
 			);
 			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		EC6E601F2B32D6DE0024ABD6 /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				EC6E60202B32D6F50024ABD6 /* ChangePasswordView.swift */,
+				EC6E60222B32D6FF0024ABD6 /* ChangePasswordVC.swift */,
+			);
+			path = ChangePassword;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -612,7 +635,6 @@
 				EC6E5F562B2B9FC80024ABD6 /* a2.json in Resources */,
 				EC6E5F552B2B9FC80024ABD6 /* a1.json in Resources */,
 				EC6E5F482B2B9D7C0024ABD6 /* Assets.xcassets in Resources */,
-				EC6E5F462B2B9D7A0024ABD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,8 +654,10 @@
 				EC6E5F712B2BB3F50024ABD6 /* MainTabBarController.swift in Sources */,
 				EC6E5FAC2B2CBBE40024ABD6 /* AlertContainerView.swift in Sources */,
 				EC6E5FA52B2C9CF70024ABD6 /* YoutubeSearchResponse.swift in Sources */,
+				EC6E60252B3373CF0024ABD6 /* SwitchTableViewCell.swift in Sources */,
 				EC6E5F682B2BAC110024ABD6 /* MovieColor.swift in Sources */,
 				EC6E5F9A2B2C81EB0024ABD6 /* BodyLabel.swift in Sources */,
+				EC6E602A2B33810A0024ABD6 /* MoviePreviewView.swift in Sources */,
 				EC6E5F872B2C52680024ABD6 /* SliderCell.swift in Sources */,
 				EC6E5F942B2C81610024ABD6 /* HeroHeaderView.swift in Sources */,
 				EC6E5F822B2C3C8F0024ABD6 /* ProfileVC.swift in Sources */,
@@ -647,6 +671,8 @@
 				EC6E5FA72B2C9ECC0024ABD6 /* MovieCellModel.swift in Sources */,
 				EC6E5FC82B2F5D6F0024ABD6 /* AuthViewModel.swift in Sources */,
 				EC6E5F912B2C71D70024ABD6 /* UIView+Ext.swift in Sources */,
+				EC6E60212B32D6F50024ABD6 /* ChangePasswordView.swift in Sources */,
+				EC6E602C2B34D3540024ABD6 /* MovieCollectionViewCell.swift in Sources */,
 				EC6E5FA92B2C9EF20024ABD6 /* MoviePreviewModel.swift in Sources */,
 				EC6E5FC02B2E42910024ABD6 /* LoginVC.swift in Sources */,
 				EC6E5F7C2B2C3B8E0024ABD6 /* HomeVC.swift in Sources */,
@@ -657,11 +683,13 @@
 				EC6E5F802B2C3C4F0024ABD6 /* DownloadsVC.swift in Sources */,
 				EC6E600F2B30A1FD0024ABD6 /* SettingTableViewCell.swift in Sources */,
 				EC6E5F9E2B2C82F10024ABD6 /* MovieButton.swift in Sources */,
+				EC6E60232B32D6FF0024ABD6 /* ChangePasswordVC.swift in Sources */,
 				EC6E5F6E2B2BB3820024ABD6 /* Date+Ext.swift in Sources */,
 				EC6E5FB62B2CFB290024ABD6 /* HelpAndSupportVC.swift in Sources */,
 				EC6E601E2B30DF960024ABD6 /* ForgotPasswordView.swift in Sources */,
 				EC6E5F412B2B9D7A0024ABD6 /* SceneDelegate.swift in Sources */,
 				EC6E5F652B2BABCB0024ABD6 /* OnboardingViewModel.swift in Sources */,
+				EC6E60282B3380FC0024ABD6 /* MoviePreviewVC.swift in Sources */,
 				EC6E60192B30D6E50024ABD6 /* RegisterVC.swift in Sources */,
 				EC6E5F6C2B2BB2B20024ABD6 /* String+Ext.swift in Sources */,
 				EC6E5F992B2C81EB0024ABD6 /* TitleLabel.swift in Sources */,
@@ -675,14 +703,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EC6E5F442B2B9D7A0024ABD6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC6E5F452B2B9D7A0024ABD6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC6E5F492B2B9D7C0024ABD6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -825,7 +845,6 @@
 				INFOPLIST_FILE = Cinemaify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -856,7 +875,6 @@
 				INFOPLIST_FILE = Cinemaify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
