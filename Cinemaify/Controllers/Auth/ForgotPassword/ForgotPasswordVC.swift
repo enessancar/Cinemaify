@@ -54,7 +54,3 @@ extension ForgotPasswordVC: ForgotPasswordViewDelegate {
         navigationController?.popToRootViewController(animated: true)
     }
 }
-
-#Preview {
-    ForgotPasswordVC()
-}
